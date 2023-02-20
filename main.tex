@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{physics}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{mathtools}
+\usepackage{hyphenat}
+\usepackage{amsfonts} 
+\usepackage{hyperref}
+\usepackage{algpseudocode}
+\usepackage[thinc]{esdiff}
+\usepackage[nointlimits]{esint}
+\usepackage{tabularx}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\hfuzz=50.002pt 
+\setlist[itemize,2]{label=$\bullet$}
+\setlist[itemize,3]{label=$\bullet$}
+\setlist{nosep}
+
+\numberwithin{equation}{subsection}
+\counterwithin{figure}{subsection}
+
+\newcommand{\detail}[2]{
+  \noindent \textbf{#1:}#2
+
+  \medskip
+}
+
+\newcommand{\boldsection}[2]{
+  \noindent \textbf{#1}
+  \smallskip
+
+  \noindent#2
+
+  \medskip
+}
+
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+
+\newcommand{\eq}[1]{
+  \begin{equation}
+    #1
+  \end{equation}
+}
+
+\newenvironment{doublecases}{\begin{rcases}\begin{dcases}}{\end{dcases}\end{rcases}}
+
+% \setlength{\parindent}{0pt}
+
+\title{Template}
+\author{Rahul Menon}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{Acknowledgement}
+
+\tableofcontents
+
+\pagebreak
+
+\section{}
+
+% \begin{figure}[H]
+% \centering
+% \fbox{\includegraphics[scale=0.2]{images/triangle.png}}
+% \caption{A Triangle}
+% \end{figure}
+
+\end{document}
